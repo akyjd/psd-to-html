@@ -1,0 +1,161 @@
+html, body {
+	height: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: #fff;
+}
+.header {
+	height:30%;
+	padding-top:1%;
+	background-color:#c62795;
+	text-align:center;
+}
+h1 {
+	color:#fff;
+}
+#menu
+	{
+		height: 20%;
+		bottom:0;
+	}
+	
+	#menu ul
+	{
+		display: inline-block;
+		padding: 0em 2em;
+		text-align: center;
+		text-transform: uppercase;
+		color:#ffffff;
+		
+
+		
+	}
+	
+	#menu li
+	{
+		display: inline-block;
+	}
+	#menu li a, #menu li span
+	{
+		display: inline-block;
+		padding: 0em 1.5em;
+		text-decoration: none;
+		font-size: 20%x;
+		font-weight: 600;
+		line-height: 60px;
+		outline: 0;
+	    color: #fff;
+	}
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+		background: #fff;
+		color: #c62795;
+	}
+	
+	
+.container {
+	text-align:center;
+	font-size:20px;
+	font-family:"Questrial", sans-serif;
+	
+}
+
+
+
+#column
+	{
+		overflow: hidden;
+		margin-top: 5em;
+		padding-top: 1em;
+		border-top: 1px solid rgba(0,0,0,0.2);
+		text-align: center;
+	}
+	
+	#column h2
+	{
+		margin: 1em 0em;
+		font-size: 1.5em;
+		font-weight: 700;
+	}
+	
+	#column .icon
+	{
+		position: relative;
+		display: block;
+		margin: 0px auto 0.80em auto;
+		background: none;
+		line-height: 150px;
+		font-size: 4em;
+		width: 150px;
+		height: 150px;
+		border-radius: 100px;
+		border: 6px solid #67128F;
+		text-align: center;
+		color: #FFF;
+		
+	}
+		
+	#column #column1,
+	#column #column2,
+	#column #column3
+	{
+		float: left;
+		width: 320px;
+		padding: 80px 40px 80px 40px;
+	}
+	
+	#column .title
+	{
+		text-align: center;
+	}
+	
+	#column .title h2
+	{
+		font-size: 1.60em;
+	}
+	
+	#column .title .byline
+	{
+		padding-top: 0.50em;
+		font-size: 0.90em;
+		color: #858585;
+	}
+
+	#column .arrow-down
+	{
+		border-top-color: #767373;
+	}
+	
+	.button
+	{
+		display: inline-block;
+		margin-top: 2em;
+		padding: 0.8em 2em;
+		background: #71bee8;
+		line-height: 1.8em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		font-size: 1em;
+		color: #fff;
+	}
+	.footer {
+		background-color:#71bee8;
+		height:30%;
+	}
+	
+	#social ul{
+		display:inline-block;
+		text-align:center;
+	}
+	#social li {
+		
+		vertical-align:bottom;
+		display:inline-block;
+	}
+	#social  img {
+		height:50px;
+		border-radius: 20%;
+	}
+	
+	
+	
